@@ -1,4 +1,7 @@
-# print the following
+# 1. Write a Python program to print the following string in a specific format (see the
+# output). Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above
+# the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what
+# you are".
 
 print("Twinkle,Twinkle, little star.")
 print("How I wonder what you are!")
@@ -9,31 +12,36 @@ print("How I wonder what you are!")
 
 
 
-# First name and last name
+# 2. Write a Python program that accepts the user's first and last name and prints them in
+# reverse order with a space between them.
 
-fname = input("Enter first name:")
-lname = input("Enter last name: ")
-print(lname,fname)
+fName = input("Enter first name:")
+lName = input("Enter last name: ")
+print(lName,fName)
 
 
 
-# Area of circle
+# 3. Write a Python program that calculates the area of a circle based on the radius entered
+# by the user.
 
 r = int(input("Enter the radius : "))
-area = 3.14*r*r
-print(area)
+Area = 3.14*r*r
+print(Area)
 
 
 
-# First and the last
+# 4. Write a Python program to display the first and last colors from the following list.
+# color_list = ["Red","Green","White" ,"Black"]
 
-color = ["red","green","white","black"]
-print(color[0])
-print(color[3])
+color_list = ["Red","Green","White","Black"]
+print(color_list[0])
+print(color_list[3])
 
 
 
-# n + nn +nnn
+# 5. Write a Python program that accepts an integer (n) and computes the value of
+# n+nn+nnn.
+# Sample value of n is 5
 
 n = int(input("Enter the number: "))
 ones = n
@@ -44,7 +52,8 @@ print(add)
 
 
 
-# comma seperated and tuple
+# 6. Write a Python program that accepts a sequence of comma-separated numbers from the
+# user and generates a list and a tuple of those numbers. Sample data : 3, 5, 7, 23
 
 x = str(input("Enter the number: ")).split(",")
 print(x)
@@ -53,7 +62,7 @@ print(x)
 
 
 
-# celcious to farehnite
+# 7. Write a program that will convert celsius value to Fahrenheit.
 
 celsius = float(input("Enetr temperature: "))
 fahrenheit = 1.8*celsius + 32
@@ -62,7 +71,8 @@ print(fahrenheit)
 
 
 
-# swap the numbers
+# 8. User will input (2numbers). Write a program to swap the numbers. Add incrementally
+# in any one variable.
 
 first = int(input("Enter the first number: "))
 second = int(input("Enter the second number: "))
@@ -75,7 +85,7 @@ print(first,second)
 
 
 
-# odd or even
+# 9. Write a program that will tell whether the number entered by the user is odd or even.
 
 n = int(input("Enter the number: "))
 if (n%2 == 0) : print("even number.")
@@ -83,7 +93,7 @@ else : print("odd number.")
 
 
 
-# leap year or not
+# 10. Write a program that will tell whether the given year is a leap year or not.
 
 year = int(input("Enter the year"))
 
@@ -95,7 +105,7 @@ else:
     print("is not a leap year")
 
 
-# distance formula
+# 11. Write a program to find the euclidean distance between two coordinates.
 
 
 x1,y1 = int(input("x1:")), int(input("y1:"))
@@ -105,7 +115,8 @@ print(distance)
 
 
 
-# triangle or not
+# 12. Write a program that take a user input of three angles and will find out whether it can
+# form a triangle or not.
 
 a1, a2, a3 = float(input("a1:")),float(input("a2:")),float(input("a3:"))
 sum = a1 + a2 + a3
@@ -114,7 +125,7 @@ else : print("This is not a triangle.")
 
 
 
-# compound interset
+# 13. WAP to find compound interest for given values.
 
 p ,r ,t,n  = int(input("principle: ")), int(input("rate: ")), int(input("time: ")), int(input(number of time))
 CI = p*((1+(r/n))**(t*n))
@@ -122,7 +133,8 @@ print(CI)
 
 
 
-# prime or not
+# 14. Given a positive integer N, the task is to write a Python program to check if the number
+# is Prime or not in Python.
 
 N = int(input("Enter the number : "))
 c = 0
@@ -135,7 +147,7 @@ else:
 print("Prime")
 
 
-# N to 12+22+33....N2
+# 15. Given a positive integer N. The task is to find 12 + 22 + 32 + ….. + N2.
 
 n = int(input("Enter the number: "))
 sum = 0
