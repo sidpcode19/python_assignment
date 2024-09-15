@@ -96,8 +96,8 @@ D[3] = 7.1
 # (vii) Clear the dictionary
 D.clear()
 
-# 6. S1 is a set defined as S1= [10, 20, 30, 40, 50, 60]. S2 is a set defined as S2= [40, 50, 60, 70, 80,
-# 90].
+'''6. S1 is a set defined as S1= [10, 20, 30, 40, 50, 60]. S2 is a set defined as S2= [40, 50, 60, 70, 80,
+90].'''
 S1 = {10, 20, 30, 40, 50, 60}
 S2 = {40, 50, 60, 70, 80, 90}
 
@@ -129,8 +129,8 @@ print(random_strings)
 primes_600_800 = [x for x in range(600, 801) if is_prime(x)]
 print(primes_600_800)
 
-# 8. Write a Python program to display the examination schedule. (extract the date from
-# exam_st_date). exam_st_date = (11, 12, 2014)
+'''8. Write a Python program to display the examination schedule. (extract the date from
+exam_st_date). exam_st_date = (11, 12, 2014)'''
 exam_st_date = (11, 12, 2014)
 print(f"The examination will start from: {exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}")
 
@@ -151,9 +151,9 @@ def count_emma(s):
 
 print(count_emma("Emma is a good girl. Emma loves programming."))  # Example usage
 
-# 12. Create a new list from two list using the following condition, Given two list of numbers, write
-# a program to create a new list such that the new list should contain odd numbers from the first
-# list and even numbers from the second list.
+'''12. Create a new list from two list using the following condition, Given two list of numbers, write
+a program to create a new list such that the new list should contain odd numbers from the first
+list and even numbers from the second list.'''
 def add_even_odd(lst):
     even_sum = sum(x for x in lst if x % 2 == 0)
     odd_sum = sum(x for x in lst if x % 2 != 0)
