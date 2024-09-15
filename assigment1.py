@@ -62,7 +62,7 @@ print(x)
 
 
 
-'''7. Write a program that will convert celsius value to Fahrenheit.'''
+# 7. Write a program that will convert celsius value to Fahrenheit.
 
 celsius = float(input("Enetr temperature: "))
 fahrenheit = 1.8*celsius + 32
@@ -85,7 +85,7 @@ print(first,second)
 
 
 
-'''9. Write a program that will tell whether the number entered by the user is odd or even.'''
+# 9. Write a program that will tell whether the number entered by the user is odd or even.
 
 n = int(input("Enter the number: "))
 if (n%2 == 0) : print("even number.")
@@ -93,7 +93,7 @@ else : print("odd number.")
 
 
 
-'''10. Write a program that will tell whether the given year is a leap year or not.'''
+# 10. Write a program that will tell whether the given year is a leap year or not.
 
 year = int(input("Enter the year"))
 
@@ -105,7 +105,7 @@ else:
     print("is not a leap year")
 
 
-'''11. Write a program to find the euclidean distance between two coordinates.'''
+# 11. Write a program to find the euclidean distance between two coordinates.
 
 
 x1,y1 = int(input("x1:")), int(input("y1:"))
@@ -125,7 +125,7 @@ else : print("This is not a triangle.")
 
 
 
-'''13. WAP to find compound interest for given values.'''
+# 13. WAP to find compound interest for given values.
 
 p ,r ,t,n  = int(input("principle: ")), int(input("rate: ")), int(input("time: ")), int(input(number of time))
 CI = p*((1+(r/n))**(t*n))
@@ -147,7 +147,7 @@ else:
 print("Prime")
 
 
-'''15. Given a positive integer N. The task is to find 12 + 22 + 32 + ….. + N2.'''
+# 15. Given a positive integer N. The task is to find 12 + 22 + 32 + ….. + N2.
 
 n = int(input("Enter the number: "))
 sum = 0
