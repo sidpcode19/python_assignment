@@ -2,7 +2,7 @@ import math
 import random
 import string
 
-# Task 1: List Manipulation with L = [11, 12, 13, 14]
+# 1. L is a list defined as L= [11, 12, 13, 14].
 L = [11, 12, 13, 14]
 
 # (i) Add 50 and 60 to L
@@ -50,7 +50,7 @@ L.clear()
 # (xii) Delete L
 del L
 
-# Task 2: Sum all items in a list without using sum()
+# 2. Write a Python program to sum all the items in a list without using any inbuilt function.
 def sum_list(lst):
     total = 0
     for item in lst:
@@ -59,7 +59,7 @@ def sum_list(lst):
 
 print(sum_list([1, 2, 3, 4]))  # Example usage
 
-# Task 3: Multiply all items in a list without using prod()
+# 3. Write a Python program to multiply all the items in a list without using any inbuilt function.
 def multiply_list(lst):
     result = 1
     for item in lst:
@@ -68,11 +68,11 @@ def multiply_list(lst):
 
 print(multiply_list([1, 2, 3, 4]))  # Example usage
 
-# Task 4: Create a 3x4x6 3D array filled with *
+# 4. Write a Python program to generate a 3*4*6 3D array whose each element is *.
 array_3d = [[['*' for _ in range(6)] for _ in range(4)] for _ in range(3)]
 print(array_3d)
 
-# Task 5: Dictionary Manipulation with D = {1.5: 6, 2.7: 3.6, 4.8: 7, 5.7: 7}
+# 5. D is a dictionary defined as D= {1:5.6, 2:7.8, 3:6.6, 4:8.7, 5:7.7}.
 D = {1.5: 6, 2.7: 3.6, 4.8: 7, 5.7: 7}
 
 # (i) Add new entry (8, 8.8)
@@ -96,7 +96,8 @@ D[3] = 7.1
 # (vii) Clear the dictionary
 D.clear()
 
-# Task 6: Set Manipulation with S1 = {10, 20, 30, 40, 50, 60}, S2 = {40, 50, 60, 70, 80, 90}
+# 6. S1 is a set defined as S1= [10, 20, 30, 40, 50, 60]. S2 is a set defined as S2= [40, 50, 60, 70, 80,
+# 90].
 S1 = {10, 20, 30, 40, 50, 60}
 S2 = {40, 50, 60, 70, 80, 90}
 
@@ -119,7 +120,7 @@ intersection_set = S1 & S2
 # (vi) Find S1 - S2
 difference_set = S1 - S2
 
-# Task 7: String and Number Related Programs
+# 7. Write the following program.
 # (i) Print 100 random strings of length between 6 and 8
 random_strings = [''.join(random.choices(string.ascii_letters, k=random.randint(6, 8))) for _ in range(100)]
 print(random_strings)
@@ -128,28 +129,31 @@ print(random_strings)
 primes_600_800 = [x for x in range(600, 801) if is_prime(x)]
 print(primes_600_800)
 
-# Task 8: Display Examination Schedule
+# 8. Write a Python program to display the examination schedule. (extract the date from
+# exam_st_date). exam_st_date = (11, 12, 2014)
 exam_st_date = (11, 12, 2014)
 print(f"The examination will start from: {exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}")
 
-# Task 9: Iterate List and Print Divisible by 5
+# 9. Iterate the given list of numbers and print only those numbers which are divisible by 5.
 lst = [10, 20, 33, 46, 55]
 div_by_5 = [x for x in lst if x % 5 == 0]
 print(div_by_5)
 
-# Task 10: Check if a Number is Even or Odd
+# 10. Write a Python program to check if a given number is even or odd using boolean variables.
 def is_even(n):
     return n % 2 == 0
 
 print(is_even(10))  # Example usage
 
-# Task 11: Count Occurrences of 'Emma' in a String
+# 11. Write a program to find how many times substring “Emma” appears in the given string.
 def count_emma(s):
     return s.lower().count("emma")
 
 print(count_emma("Emma is a good girl. Emma loves programming."))  # Example usage
 
-# Task 12: Add Even and Odd Numbers Separately
+# 12. Create a new list from two list using the following condition, Given two list of numbers, write
+# a program to create a new list such that the new list should contain odd numbers from the first
+# list and even numbers from the second list.
 def add_even_odd(lst):
     even_sum = sum(x for x in lst if x % 2 == 0)
     odd_sum = sum(x for x in lst if x % 2 != 0)
